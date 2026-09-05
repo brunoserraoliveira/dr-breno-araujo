@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Dr. Breno Araujo 13.333 | Deputado Estadual em Pernambuco</title>
+    <meta name="description" content="Propostas de Dr. Breno Araujo para Pernambuco: saúde, educação, emprego, segurança e interior forte."/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pt: {
+                            DEFAULT: '#cc0000',
+                            dark: '#990000',
+                            light: '#ff1a1a',
+                        },
+                        accent: {
+                            DEFAULT: '#FBBF24',
+                            hover: '#F59E0B',
+                        },
+                        ink: '#111827',
+                    },
+                    fontFamily: {
+                        display: ['"Archivo Black"', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .glass-header {
+                @apply bg-white/80 backdrop-blur-md border-b border-gray-200/50 shadow-sm;
+            }
+            .text-gradient {
+                @apply bg-clip-text text-transparent bg-gradient-to-r from-pt-dark to-pt-light;
+            }
+            .card-hover {
+                @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-pt/20 hover:border-pt;
+            }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-ink bg-gray-50">
+    <div class="min-h-screen flex flex-col">
+        
+        <div class="h-2 w-full bg-gradient-to-r from-pt-dark via-pt to-accent"></div>
+        
+        <header class="sticky top-0 z-50 glass-header transition-all">
+            <div class="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-4">
+                <a href="#topo" class="flex min-w-0 items-center gap-3 group">
+                    <span class="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-pt font-display text-xl text-white shadow-lg shadow-pt/30 transition-transform group-hover:scale-105">13</span>
+                    <span class="min-w-0">
+                        <span class="block truncate font-display text-lg uppercase text-ink">Dr. Breno Araujo</span>
+                        <span class="block text-xs font-bold uppercase tracking-widest text-pt">13.333</span>
+                    </span>
+                </a>
+                
+                <nav class="hidden items-center gap-8 lg:flex">
+                    <a href="#propostas" class="text-sm font-bold uppercase tracking-wider text-gray-600 transition-colors hover:text-pt">Propostas</a>
+                    <a href="#sobre" class="text-sm font-bold uppercase tracking-wider text-gray-600 transition-colors hover:text-pt">Sobre</a>
+                    <a href="#apoiar" class="text-sm font-bold uppercase tracking-wider text-gray-600 transition-colors hover:text-pt">Apoiar</a>
+                    <a href="https://www.instagram.com/drbrenoaraujo/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-pt text-white shadow-lg shadow-pt/30 hover:bg-pt-dark hover:-translate-y-0.5 transition-all h-10 px-6 text-sm font-bold uppercase tracking-wide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                        Seguir
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="topo" class="flex-grow">
+            <!-- Hero Section -->
+            <section class="relative overflow-hidden bg-gradient-to-br from-pt-dark via-pt to-[#b30000] text-white">
+                <div class="absolute -top-24 -right-24 w-96 h-96 bg-pt-light rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-pulse"></div>
+                
+                <div class="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 lg:grid-cols-2 lg:py-28">
+                    <div class="space-y-8 z-10">
+                        <div class="inline-flex items-center rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 border border-white/20">
+                            <span class="flex h-2 w-2 rounded-full bg-accent mr-2 animate-ping"></span>
+                            <span class="flex absolute h-2 w-2 rounded-full bg-accent mr-2"></span>
+                            <p class="text-xs font-bold uppercase tracking-widest text-accent">Candidato a Deputado Estadual</p>
+                        </div>
+                        <h1 class="font-display text-5xl uppercase leading-[0.95] md:text-7xl drop-shadow-lg">
+                            Nossa força é <br/>
+                            <span class="text-accent">Pernambuco!</span>
+                        </h1>
+                        <p class="max-w-xl text-lg text-gray-100 font-medium leading-relaxed">
+                            Dentista, marido e pai de duas filhas. Uma campanha de rua, feita com quem trabalha, cuida e acredita num estado com mais saúde e oportunidade. No time de Lula.
+                        </p>
+                        <div class="flex flex-col gap-4 sm:flex-row">
+                            <a href="#propostas" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold bg-white text-pt shadow-xl hover:bg-gray-100 transition-all hover:scale-105 h-12 rounded-full px-8">Ver propostas</a>
+                            <a href="https://www.instagram.com/drbrenoaraujo/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold border-2 border-white/30 hover:border-white hover:bg-white/10 backdrop-blur-sm transition-all h-12 rounded-full px-8 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                                Acompanhar Agenda
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="relative z-10 flex justify-center">
+                        <img src="img/capa.png" alt="Dr. Breno Araujo 13.333" class="relative w-full max-w-md rounded-2xl object-cover shadow-2xl border-4 border-white/10 bg-pt-dark aspect-[4/5]"/>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sobre Section -->
+            <section id="sobre" class="mx-auto max-w-6xl px-4 py-20 lg:py-28">
+                <div class="grid items-center gap-12 lg:grid-cols-2">
+                    <div class="order-2 lg:order-1 flex justify-center">
+                        <img src="img/2.png" alt="13 Fatos sobre Breno" class="w-full max-w-md rounded-2xl object-cover shadow-2xl border-4 border-gray-100 aspect-[4/5]"/>
+                    </div>
+                    <div class="space-y-6 order-1 lg:order-2">
+                        <h2 class="font-display text-4xl uppercase sm:text-5xl text-ink">Quem é <span class="text-pt">Breno Araujo</span></h2>
+                        <p class="text-lg text-gray-600 leading-relaxed">Dentista formado pela UFPE, Breno passou a vida atendendo gente que depende do serviço público. Casado com Márcia Conrado e pai de Vitória e Marina, ele carrega para a Assembleia Legislativa a mesma escuta e cuidado que aprendeu no consultório e nos postos de saúde.</p>
+                        <p class="text-lg text-gray-600 leading-relaxed">A candidatura ganha força desde Serra Talhada até a Região Metropolitana: caminhadas, conversas de calçada e encontros com profissionais de saúde, mães atípicas, trabalhadores e jovens que buscam renovação e coragem para mudar.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Propostas Section -->
+            <section id="propostas" class="bg-white py-20 lg:py-28 relative border-t border-gray-100">
+                <div class="mx-auto max-w-6xl px-4">
+                    <div class="text-center mb-16">
+                        <h2 class="font-display text-4xl uppercase sm:text-5xl text-ink">Nossas <span class="text-gradient">Propostas</span></h2>
+                        <p class="mt-4 text-xl text-gray-500 max-w-2xl mx-auto">Oito compromissos reais para transformar o dia a dia do povo pernambucano.</p>
+                    </div>
+                    
+                    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                        <article class="bg-gray-50 rounded-2xl border border-gray-200 p-8 card-hover relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-pt/5 rounded-bl-full -z-10 transition-transform group-hover:scale-150"></div>
+                            <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-pt/10 text-pt mb-6 group-hover:bg-pt group-hover:text-white transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg>
+                            </span>
+                            <h3 class="text-xl font-bold leading-tight text-ink mb-3 group-hover:text-pt transition-colors">Saúde pública de verdade</h3>
+                            <p class="text-gray-500 text-sm leading-relaxed">Mais médicos, exames e cirurgias no SUS, com hospitais equipados e filas menores.</p>
+                        </article>
+                        
+                        <article class="bg-gray-50 rounded-2xl border border-gray-200 p-8 card-hover relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-pt/5 rounded-bl-full -z-10 transition-transform group-hover:scale-150"></div>
+                            <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-pt/10 text-pt mb-6 group-hover:bg-pt group-hover:text-white transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" x2="9.01" y1="9" y2="9"></line><line x1="15" x2="15.01" y1="9" y2="9"></line></svg>
+                            </span>
+                            <h3 class="text-xl font-bold leading-tight text-ink mb-3 group-hover:text-pt transition-colors">Saúde bucal para todos</h3>
+                            <p class="text-gray-500 text-sm leading-relaxed">Consultas odontológicas, tratamento e prevenção no SUS, com o olhar de quem é dentista.</p>
+                        </article>
+
+                        <article class="bg-gray-50 rounded-2xl border border-gray-200 p-8 card-hover relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-pt/5 rounded-bl-full -z-10 transition-transform group-hover:scale-150"></div>
+                            <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-pt/10 text-pt mb-6 group-hover:bg-pt group-hover:text-white transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+                            </span>
+                            <h3 class="text-xl font-bold leading-tight text-ink mb-3 group-hover:text-pt transition-colors">Educação integral</h3>
+                            <p class="text-gray-500 text-sm leading-relaxed">Escolas estaduais com estrutura, merenda de qualidade e reforço para quem ficou para trás.</p>
+                        </article>
+
+                        <article class="bg-gray-50 rounded-2xl border border-gray-200 p-8 card-hover relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-pt/5 rounded-bl-full -z-10 transition-transform group-hover:scale-150"></div>
+                            <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-pt/10 text-pt mb-6 group-hover:bg-pt group-hover:text-white transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
+                            </span>
+                            <h3 class="text-xl font-bold leading-tight text-ink mb-3 group-hover:text-pt transition-colors">Emprego e Renda</h3>
+                            <p class="text-gray-500 text-sm leading-relaxed">Apoio ao pequeno negócio e incentivo à indústria e ao turismo no interior.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Apoiar / Formulário -->
+            <section id="apoiar" class="mx-auto max-w-4xl px-4 py-20">
+                <div class="bg-white rounded-3xl shadow-xl shadow-gray-200/50 border border-gray-100 p-8 sm:p-12">
+                    <div class="text-center mb-10">
+                        <h2 class="font-display text-3xl uppercase sm:text-4xl text-ink">Junte-se à <span class="text-pt">Campanha</span></h2>
+                        <p class="mt-2 text-lg text-gray-500">Deixe seu contato e venha construir a vitória com a gente.</p>
+                    </div>
+                    
+                    <form class="grid gap-6 sm:grid-cols-2">
+                        <div class="grid gap-2">
+                            <label class="text-sm font-bold text-gray-700" for="name">Nome completo</label>
+                            <input class="flex h-12 w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pt/50 focus:border-pt transition-all" id="name" placeholder="Como devemos te chamar?" type="text" />
+                        </div>
+                        <div class="grid gap-2">
+                            <label class="text-sm font-bold text-gray-700" for="whatsapp">WhatsApp</label>
+                            <input class="flex h-12 w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pt/50 focus:border-pt transition-all" id="whatsapp" placeholder="(81) 90000-0000" type="text" />
+                        </div>
+                        <div class="grid gap-2 sm:col-span-2">
+                            <label class="text-sm font-bold text-gray-700" for="city">Cidade</label>
+                            <input class="flex h-12 w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pt/50 focus:border-pt transition-all" id="city" placeholder="Ex: Serra Talhada" type="text" />
+                        </div>
+                        <div class="grid gap-2 sm:col-span-2">
+                            <label class="text-sm font-bold text-gray-700" for="message">Mensagem (opcional)</label>
+                            <textarea class="flex min-h-[100px] w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-pt/50 focus:border-pt transition-all" id="message" placeholder="Como você quer ajudar no seu bairro?" rows="4"></textarea>
+                        </div>
+                        <div class="sm:col-span-2 mt-4 text-center">
+                            <button class="inline-flex items-center justify-center font-bold text-base bg-pt text-white shadow-lg shadow-pt/30 hover:bg-pt-dark hover:-translate-y-1 h-14 rounded-full px-12 w-full sm:w-auto transition-all" type="button">Quero ser voluntário</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-ink text-gray-300 mt-auto border-t-[6px] border-pt">
+            <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
+                <div class="min-w-0">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-pt font-display text-lg text-white">13</span>
+                        <p class="font-display text-2xl uppercase text-white">Dr. Breno Araujo</p>
+                    </div>
+                    <p class="text-sm text-gray-400 font-medium">Propaganda eleitoral. CNPJ: 68.258.273/0001-74.</p>
+                </div>
+                <div class="flex flex-col sm:items-end gap-4">
+                    <a href="https://www.instagram.com/drbrenoaraujo/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-white/10 hover:bg-pt text-white transition-all h-12 px-6 font-bold uppercase text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                        Instagram Oficial
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
